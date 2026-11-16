@@ -10,6 +10,8 @@ Rule: safe to spend today = total e-wallet balance / days left until the next al
 
 Live demo: https://seryu77.github.io/sakukos-prototype/
 
+Walkthrough video (success, empty state, stale sync): [docs/walkthrough.mp4](docs/walkthrough.mp4)
+
 ## Tech stack
 
 React 19, TypeScript and Vite. No backend and no UI library. The calculation lives in `src/lib/safeToSpend.ts` and is covered by unit tests that use the numbers from the PRD.
